@@ -13,6 +13,9 @@
 		14E7ECDA227CF1D600C038AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E7ECD8227CF1D600C038AF /* Main.storyboard */; };
 		14E7ECE6227CF1D600C038AF /* SlackeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7ECE5227CF1D600C038AF /* SlackeyTests.swift */; };
 		14E7ECF1227CF1D600C038AF /* SlackeyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7ECF0227CF1D600C038AF /* SlackeyUITests.swift */; };
+		14E7ED032280C22400C038AF /* MsgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7ED022280C22400C038AF /* MsgViewController.swift */; };
+		14E7ED052280C64300C038AF /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7ED042280C64300C038AF /* Messages.swift */; };
+		14E7ED0722811A3B00C038AF /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7ED0622811A3B00C038AF /* EventMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		14E7ECEC227CF1D600C038AF /* SlackeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlackeyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14E7ECF0227CF1D600C038AF /* SlackeyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlackeyUITests.swift; sourceTree = "<group>"; };
 		14E7ECF2227CF1D600C038AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14E7ED022280C22400C038AF /* MsgViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MsgViewController.swift; sourceTree = "<group>"; };
+		14E7ED042280C64300C038AF /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		14E7ED0622811A3B00C038AF /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +103,12 @@
 			isa = PBXGroup;
 			children = (
 				14E7ECD2227CF1D500C038AF /* AppDelegate.swift */,
+				14E7ED042280C64300C038AF /* Messages.swift */,
 				14E7ECD4227CF1D500C038AF /* ViewController.swift */,
+				14E7ED022280C22400C038AF /* MsgViewController.swift */,
 				14E7ECD6227CF1D600C038AF /* Assets.xcassets */,
 				14E7ECD8227CF1D600C038AF /* Main.storyboard */,
+				14E7ED0622811A3B00C038AF /* EventMonitor.swift */,
 				14E7ECDB227CF1D600C038AF /* Info.plist */,
 				14E7ECDC227CF1D600C038AF /* Slackey.entitlements */,
 			);
@@ -254,6 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E7ED032280C22400C038AF /* MsgViewController.swift in Sources */,
+				14E7ED0722811A3B00C038AF /* EventMonitor.swift in Sources */,
+				14E7ED052280C64300C038AF /* Messages.swift in Sources */,
 				14E7ECD5227CF1D500C038AF /* ViewController.swift in Sources */,
 				14E7ECD3227CF1D500C038AF /* AppDelegate.swift in Sources */,
 			);
